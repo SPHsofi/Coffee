@@ -1,0 +1,93 @@
+.modal {
+    padding: 16px;
+    border-radius: 40px;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 340px;
+    width: 340px;
+    border-radius: 40px;
+}
+
+.box img {
+    width: 340px;
+    height: 340px;
+}
+
+.description,
+.additives {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.description h2 {
+    font: 600 24px/125% "Inter", sans-serif;
+}
+
+.d-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.tabs {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    display: flex;
+    padding: 8px 16px 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #C1B6AD;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+.tab-button-choose {
+    border: #665F55;
+    background-color: #665F55;
+}
+
+.tab-button-choose .tab-circle {
+    background-color: #E1D4C9;
+}
+
+.tab-circle {
+    display: flex;
+    padding: 3px 9px 3px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #C1B6AD;
+    box-sizing: border-box;
+}
+
+.tab-circle p {
+    font: 600 16px/150% "Inter", sans-serif;
+    text-align: center;
+}
